@@ -1,0 +1,179 @@
+.h{
+	width: 100%;
+	height: 100px;
+	font-size: 30px;
+	text-align: center;
+	font-family: Times New Roman Georgia;
+}
+.leftnav{
+	float: left;
+	width: 25%;
+	height: 500px;
+	margin: 10px;
+}
+.leftnav:hover p{
+	background-color: #87CEFA;
+}
+.middlenav{
+	float: left;
+	width: 50%;
+	height: 500px;
+	margin: 10px;
+}
+#images{
+	width: 90%;
+	height: 410px;
+}
+.rightnav{
+	float: left;
+	width: 20%;
+	height: 500px;
+	margin: 10px;
+}
+.notifications{
+	width: 100%;
+	height: 40%;
+
+}
+.youtube{
+	width: 100%;
+	height: 45%;
+	background-color:red;
+}
+.youtube1{
+	width: 100%;
+	height: 170px;
+}
+.second_row{
+	height: 380px;
+	width: 100%;
+}
+.facilities{
+	width: 25%;
+	float: left;
+	margin:10px;
+	position: relative;
+	top: -35px;
+}
+.touris{
+	width: 45%;
+	float: left;
+	margin:10px;
+	position: relative;
+	top: -35px;
+}
+.touris:hover h1{
+	color: #FF0000;
+	background-color:#32CD32;
+}
+
+.touris section{
+	width: 49%;
+	float: left;
+}
+.tour_art{
+	text-align: justify;
+}
+.tour_art:hover p{
+	font-size: 18px;
+	background-color: #87CEFA;
+}
+.tour_pics{
+	position: relative;
+	left: 11px;
+	top:2px; 
+}
+#temple{
+	position: relative;
+	left: 490px;
+}
+.reach{
+	width: 25%;
+	float: left;
+	margin:10px;
+	position: relative;
+	top: -35px;
+}
+.reach:hover h1
+{
+	color: #FF0000;
+	background-color:#32CD32;
+}
+
+.air:hover h2
+{
+	color: #FF0000;
+	font-size: 36px
+}
+
+.footernav{
+	width: 100%;
+	height: 70px;
+	float: right;
+}
+
+header h1{
+	padding-top: 0;
+	margin:0;
+}
+header{
+	background-image: url('images/back.jpg');
+	background-repeat: round;
+}
+header p{
+	padding-top: 0;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.leftnav h2{
+	color:black;
+	background-color: yellow;
+	font-family: Times New Roman Georgia;
+	margin-top: 0;
+}
+.leftnav:hover h2{
+	color: #FF0000;
+	background-color:#32CD32;
+}
+.rightnav h2{
+	color:black;
+	background-color: yellow;
+	font-family: Times New Roman Georgia;
+	margin-top: 0;
+}
+.rightnav:hover h2{
+	color: #FF0000;
+	background-color:#32CD32;
+}
+.facilities:hover h1{
+	color: #FF0000;
+	background-color:#32CD32;
+}
+.second_row div h1{
+	background-color: yellow;
+	font-family: Times New Roman Georgia;
+	margin-top: 0;
+}
+.reach div {
+  background-color: yellow;
+  display: none;
+}
+.air:hover + div{
+  display: block;
+}
+footer nav{
+	position: relative;
+	top: -50px;
+	left: -360px;
+}
+footer {
+  text-align: center;
+  background-color: DarkSalmon;
+  color: white;
+
+}
+
