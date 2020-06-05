@@ -1,0 +1,32 @@
+body{
+	background-color: #FA8072;
+}
+header{
+	text-align: center;
+	margin-top: 5px;
+	height: 70px;
+	background-color: white;
+}
+#name h1{
+	color: #DC143C;
+	position: relative;
+	top: 8px;
+	font-size: 46px;
+}
+.photo{
+	width: 250px;
+	height: 270px;
+	border-radius:50%;
+	position: relative;
+	top: 20px;
+	left: 40%;
+	border: 2px solid black;
+}
+#abt{
+	margin: 30px;
+	font-size: 26px;
+
+}
+pre{
+	font-size: 20px;
+}
