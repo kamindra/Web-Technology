@@ -13,6 +13,11 @@ header{
 	top: 8px;
 	font-size: 46px;
 }
+#back{
+	float:right;
+	color:blue;
+	font-weight:bold;
+}
 .photo{
 	width: 250px;
 	height: 270px;
