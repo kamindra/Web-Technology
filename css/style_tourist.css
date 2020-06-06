@@ -27,13 +27,6 @@ div article{
 	font-family: Times New Roman Georgia;
 	font-family: bold;
 }
-div h2{
-	background-color: #FFA500;
-	width: 25%;
-}
-div:hover h2{
-	background-color: red;
-}
 .picture{
 	margin-left: 45px;
 }
